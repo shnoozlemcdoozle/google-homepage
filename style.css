@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+head {
+  item-align: right;
+}
+
+.topbar {
+  width: 120px;
+  height: 30px;
+  border: solid;
+  float: right;
+}
+
+.container {
+  width: 503px;
+  margin: auto;
+  position: relative;
+  top: 15em;
+  height: 500px;
+}
+
+.searchbar {
+  margin: auto;
+  width: 100%;
+}
+
+.logo {
+  width: 272px;
+  margin: auto;
+}
+
+.searchbar {
+  height: 2em;
+  border: 3px solid lightgrey;
+  box-shadow: 2px 2px 2px;
+}
+
+.buttons {
+  margin-top: 20px;
+
+  width:500px;
+  align-items: center;
+}
+
+#googlesearchbtn, #luckybtn{
+  height: 30px;
+  width: 120px;
+}
+
+#googlesearchbtn {
+  margin-left:24%;
+}
+
+#luckybtn {
+  margin-right:20%;
+  margin-left: 10px;
+}
