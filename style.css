@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: arial;
 }
 
 head {
@@ -20,7 +21,7 @@ head {
   margin: auto;
   position: relative;
   top: 15em;
-  height: 500px;
+  height: auto;
 }
 
 .searchbar {
@@ -45,7 +46,8 @@ head {
   align-items: center;
 }
 
-#googlesearchbtn, #luckybtn {
+#googlesearchbtn,
+#luckybtn {
   height: 30px;
   width: 120px;
 }
@@ -68,7 +70,6 @@ head {
   top: 5px;
   color: grey;
   text-decoration: none;
-
 }
 
 .gmaillink:hover {
@@ -88,11 +89,35 @@ head {
 .userphoto {
   position: relative;
   border-radius: 50%;
-  height:32px;
-  width:32px;
+  height: 32px;
+  width: 32px;
   margin: auto;
   display: block;
   float: right;
   right: 20px;
   bottom: 28px;
+}
+
+footer {
+  position: relative;
+  height: 2em;
+  top:30em;
+  width: 100%;
+  border: solid blue;
+  background-color: #f2f2f2;
+  padding-top:1em;
+}
+
+.footer_left {
+  float:left;
+}
+
+.footer_right {
+  float: right;
+}
+
+.foottext {
+  margin:auto;
+  padding: 4px 4px 4px;
+  color: darkgray;
 }
