@@ -8,9 +8,10 @@ head {
 }
 
 .topbar {
-  width: 120px;
+  position: relative;
+  width: 200px;
   height: 30px;
-  border: solid;
+  padding: 5px 5px 5px;
   float: right;
 }
 
@@ -40,21 +41,58 @@ head {
 
 .buttons {
   margin-top: 20px;
-
-  width:500px;
+  width: 500px;
   align-items: center;
 }
 
-#googlesearchbtn, #luckybtn{
+#googlesearchbtn, #luckybtn {
   height: 30px;
   width: 120px;
 }
 
 #googlesearchbtn {
-  margin-left:24%;
+  margin-left: 24%;
 }
 
 #luckybtn {
-  margin-right:20%;
+  margin-right: 20%;
   margin-left: 10px;
+}
+
+.gmaillink {
+  margin: 5px 5px 5px;
+  position: relative;
+  display: block;
+  float: left;
+  right: 4px;
+  top: 5px;
+  color: grey;
+  text-decoration: none;
+
+}
+
+.gmaillink:hover {
+  text-decoration: underline;
+}
+
+#ninedots {
+  top: 2px;
+  position: relative;
+  display: block;
+}
+
+#ninedots:hover {
+  color: black;
+}
+
+.userphoto {
+  position: relative;
+  border-radius: 50%;
+  height:32px;
+  width:32px;
+  margin: auto;
+  display: block;
+  float: right;
+  right: 20px;
+  bottom: 28px;
 }
