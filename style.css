@@ -6,6 +6,7 @@
 
 head {
   item-align: right;
+  height:auto;
 }
 
 .topbar {
@@ -15,7 +16,10 @@ head {
   padding: 5px 5px 5px;
   float: right;
 }
-
+.biggercont {
+  height: 100%;
+  margin-bottom: -50px;
+}
 .container {
   width: 503px;
   margin: auto;
@@ -101,23 +105,29 @@ head {
 footer {
   position: relative;
   height: 2em;
-  top:30em;
   width: 100%;
-  border: solid blue;
+  border-top: solid darkgray;
   background-color: #f2f2f2;
   padding-top:1em;
 }
 
 .footer_left {
   float:left;
+  margin-left: 2em;
 }
 
 .footer_right {
   float: right;
+  margin-right: 2em;
 }
 
 .foottext {
   margin:auto;
-  padding: 4px 4px 4px;
-  color: darkgray;
+  padding: 6px 6px 6px;
+  color: #474c51;
+  text-decoration: none;
+}
+
+.foottext:hover {
+  text-decoration: underline;
 }
